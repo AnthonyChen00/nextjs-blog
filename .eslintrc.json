@@ -1,3 +1,16 @@
 {
+  "plugins": [
+    "prefer-arrow"
+  ],
+  "rules": {
+    "prefer-arrow/prefer-arrow-functions": [
+      "warn",
+      {
+        "disallowPrototype": true,
+        "singleReturnOnly": false,
+        "classPropertiesAllowed": false
+      }
+    ]
+  },
   "extends": "next/core-web-vitals"
 }
