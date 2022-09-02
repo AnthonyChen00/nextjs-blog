@@ -4,14 +4,17 @@ export const mainTheme = createTheme({
     palette: {
       type:"light",
       primary: {
-        main: "#212F3F",
+        main: "#766153",
       },
       secondary: {
         main: '#f10260',
       },
       base: {
-        main: "#dfe0f7",
+        main: "#BCBD8B",
         dark: "#000000",
+      },
+      font: {
+        main: "#373D20",
       }
     },
     spacing:0,
