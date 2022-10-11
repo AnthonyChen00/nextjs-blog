@@ -1,24 +1,27 @@
-import { createTheme } from '@mui/system'
+import { createTheme } from "@mui/material/styles"
 
 export const mainTheme = createTheme({
     palette: {
-      type:"light",
       primary: {
-        main: "#212F3F",
+        main: "#E9EDC9",
       },
       secondary: {
-        main: '#f10260',
+        main: '#CCD5AE',
       },
-      base: {
-        main: "#dfe0f7",
-        dark: "#000000",
-      }
     },
-    spacing:0,
     typography: {
-        fontSize: 40,
+        fontSize: 20,
         h1: {
-          fontSize: '4.0rem',
+          fontSize: '2.0rem',
         },
       },
+    components: {
+      MuiAppBar: {
+        styleOverrides: {
+          colorPrimary: {
+            backgroundColor: "#D4A373"
+          }
+        }
+      }
+    }
   });
